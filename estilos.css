@@ -1,3 +1,7 @@
 h1{
-    color: rgb(34, 109, 109);
+    color: rgb(43, 59, 59);
+    text-align: center;
+}
+body{
+    background-color: rgb(123, 204, 177);
 }
