@@ -1,7 +1,43 @@
 h1{
-    color: rgb(43, 59, 59);
-    text-align: center;
+    color: rgb(27, 79, 109);
+    text-align:center;
+}
+h2{
+    margin-left:5%;
+    text-decoration:underline;
+}
+h3{
+    margin-left:7.5%;
 }
 body{
     background-color: rgb(123, 204, 177);
+}
+#enlaces{
+    text-align:center;
+}
+#contacto{
+    text-align:center;
+}
+header{
+    width:50%;
+    text-align:center;
+    margin:auto;
+}
+ol li{
+    display:inline-block;
+    background-color: rgb(223, 179, 83);
+    text-align:center;
+    width:20%;
+    height:50%;
+}
+nav ol{
+    padding:0;
+    border:1px solid black;
+}
+ul{
+    margin-left:10%; 
+}
+footer{
+    display:inline;
+    text-align:center;
 }
