@@ -11,33 +11,47 @@ h3{
 }
 body{
     background-color: rgb(123, 204, 177);
+    border-style:solid;
+    border-width:0 2px;
+    border-color: black;
+    margin:auto;
 }
-#enlaces{
-    text-align:center;
+main{
+    margin:2.5% auto;
+    width:55%;
 }
 #contacto{
     text-align:center;
 }
-header{
-    width:50%;
-    text-align:center;
-    margin:auto;
+#enlaces nav{
+    margin:0 auto;
 }
-ol li{
-    display:inline-block;
-    background-color: rgb(223, 179, 83);
-    text-align:center;
-    width:20%;
-    height:50%;
+nav{
+    border-bottom:8px solid rgb(223, 179, 83);
+    background-color: aquamarine;
 }
 nav ol{
+    margin:0;
     padding:0;
-    border:1px solid black;
+    text-align:center;
+}
+nav li{
+    display:inline-block;
+    background-color: rgb(223, 179, 83);
+    padding:0;
+    width:10%;
 }
 ul{
     margin-left:10%; 
 }
 footer{
-    display:inline;
     text-align:center;
+    border-top:8px solid rgb(223, 179, 83);
+    background-color: aquamarine;
+}
+header{
+    text-align:center;
+    background-color: aquamarine;
+    border:2px solid black;
+    margin:5%;
 }
