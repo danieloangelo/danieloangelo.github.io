@@ -1,9 +1,9 @@
 h1{
     color: rgb(27, 79, 109);
+    margin:auto;
     text-align:center;
 }
 h2{
-    margin-left:5%;
     text-decoration:underline;
 }
 h3{
@@ -11,23 +11,30 @@ h3{
 }
 body{
     background-color: rgb(123, 204, 177);
-    border-style:solid;
-    border-width:0 2px;
-    border-color: black;
     margin:auto;
 }
 main{
-    margin:2.5% auto;
+    margin:0 17%;
     width:55%;
 }
-#contacto{
+#contacto main{
+    margin:auto;
     text-align:center;
 }
-#enlaces nav{
-    margin:0 auto;
+#enlaces{
+    text-align:center;
+}
+ol{
+    margin:2% auto;
+    padding:0;
+}
+#enlaces li{
+    display:inline-block;
+    border:1px solid black;
+    width:20%;
+    background-color: rgb(223, 179, 83);
 }
 nav{
-    border-bottom:8px solid rgb(223, 179, 83);
     background-color: aquamarine;
 }
 nav ol{
@@ -39,19 +46,23 @@ nav li{
     display:inline-block;
     background-color: rgb(223, 179, 83);
     padding:0;
-    width:10%;
+    width:20%;
 }
 ul{
     margin-left:10%; 
 }
 footer{
     text-align:center;
-    border-top:8px solid rgb(223, 179, 83);
     background-color: aquamarine;
+}
+#volverfooter{
+    margin:2.5% auto;
+    width:20%;
 }
 header{
     text-align:center;
     background-color: aquamarine;
     border:2px solid black;
-    margin:5%;
+    width:70%;
+    margin:2.5% auto;
 }
