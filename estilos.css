@@ -24,6 +24,12 @@ main{
 #enlaces{
     text-align:center;
 }
+#enlaces ol li:hover{
+    background-color: orangered;
+}
+ol li:hover{
+    background-color: orangered;
+}
 ol{
     margin:2% auto;
     padding:0;
@@ -37,9 +43,6 @@ ol{
 a{
     text-decoration:none;
     color:black;
-}
-ol li:hover{
-    background-color: orangered;
 }
 nav{
     background-color: aquamarine;
