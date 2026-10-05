@@ -1,7 +1,7 @@
 h1{
     color: rgb(27, 79, 109);
-    margin:auto;
-    text-align:center;
+    margin-top:0;
+    padding-top:2%;
 }
 h2{
     text-decoration:underline;
@@ -11,7 +11,7 @@ h3{
 }
 body{
     background-color: rgb(123, 204, 177);
-    margin:auto;
+    margin:0;
 }
 main{
     margin:0 17%;
@@ -48,18 +48,15 @@ nav{
     background-color: aquamarine;
 }
 nav ol{
-    margin:0;
-    padding:0;
     text-align:center;
 }
 nav li{
     display:inline-block;
     background-color: rgb(223, 179, 83);
-    padding:0;
-    width:20%;
-}
-ul{
-    margin-left:10%; 
+    border:1px solid black;
+    padding-top:0.5%;
+    width:300px;
+    height:30px;
 }
 footer{
     text-align:center;
@@ -72,7 +69,24 @@ footer{
 header{
     text-align:center;
     background-color: aquamarine;
-    border:2px solid black;
-    width:70%;
-    margin:2.5% auto;
+
+}
+#bodykh{
+    background-image:url(image/kingdomheartsback.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    color: aliceblue;
+}
+li:hover{
+    transform:scale(1.15);
+}
+ul{
+    text-align:center;
+    padding-left:0;
+}
+ul li{
+    display:inline-block;
+    width: 30%;
+    padding-left:0;
 }
