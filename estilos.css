@@ -6,19 +6,11 @@ h1{
 h2{
     text-decoration:underline;
 }
-h3{
-    margin-left:7.5%;
-}
 body{
     background-color: rgb(123, 204, 177);
     margin:0;
 }
-main{
-    margin:0 17%;
-    width:55%;
-}
-#contacto main{
-    margin:auto;
+#contacto{
     text-align:center;
 }
 #enlaces{
@@ -30,14 +22,12 @@ main{
 ol li:hover{
     background-color: orangered;
 }
-ol{
-    margin:2% auto;
-    padding:0;
-}
 #enlaces li{
     display:inline-block;
     border:1px solid black;
-    width:20%;
+    padding-top:0.5%;
+    width:350px;
+    height:30px;
     background-color: rgb(223, 179, 83);
 }
 a{
@@ -48,13 +38,13 @@ nav{
     background-color: aquamarine;
 }
 nav ol{
-    text-align:center;
+padding-left:0;
 }
 nav li{
     display:inline-block;
     background-color: rgb(223, 179, 83);
     border:1px solid black;
-    padding-top:0.5%;
+    padding:10px 0 0 0;
     width:300px;
     height:30px;
 }
@@ -62,21 +52,12 @@ footer{
     text-align:center;
     background-color: aquamarine;
 }
-#volverfooter{
-    margin:2.5% auto;
-    width:20%;
-}
 header{
     text-align:center;
     background-color: aquamarine;
-
 }
 #bodykh{
-    background-image:url(image/kingdomheartsback.jpg);
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover;
-    color: aliceblue;
+    text-align:center;
 }
 li:hover{
     transform:scale(1.15);
@@ -89,4 +70,21 @@ ul li{
     display:inline-block;
     width: 30%;
     padding-left:0;
+}
+div{
+    height:30px;
+    padding-top:0.25%;
+    font-size:150%;
+}
+#bodyacww{
+    text-align:center;
+}
+#bodyprincipal{
+    text-align:center;
+}
+.principaltitulo2{
+    text-align:center;
+}
+.principaltitulo3{
+    text-align:center;
 }
