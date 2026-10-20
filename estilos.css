@@ -38,7 +38,7 @@ nav{
     background-color: aquamarine;
 }
 nav ol{
-padding-left:0;
+    padding-left:0;
 }
 nav li{
     display:inline-block;
