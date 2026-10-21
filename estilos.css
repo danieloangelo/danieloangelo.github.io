@@ -22,6 +22,9 @@ body{
 ol li:hover{
     background-color: orangered;
 }
+#enlaces ol{
+    padding-left:0;
+}
 #enlaces li{
     display:inline-block;
     border:1px solid black;
