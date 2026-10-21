@@ -6,6 +6,10 @@ h1{
 h2{
     text-decoration:underline;
 }
+p{
+    font-family:'Londrina Shadow';
+    font-style:normal;
+}
 body{
     background-color: rgb(123, 204, 177);
     margin:0;
