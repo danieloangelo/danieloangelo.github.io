@@ -84,3 +84,13 @@ dd{
     font-size:1.1em;
     padding-bottom:20px;
 }
+table{
+    border-collapse:collapse;
+    width:70%;
+    text-align:center;
+    margin:auto;
+    margin-top:50px;
+}
+th,td{
+    border: 2px solid rgb(0, 128, 85);
+}
