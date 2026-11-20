@@ -15,17 +15,14 @@ body{
 #enlaces{
     text-align:center;
 }
-#enlaces ol li:hover{
-    background-color: orangered;
-}
-ol li:hover{
+nav li:hover{
     background-color: orangered;
 }
 #enlaces ol{
     padding-left:0;
     margin:0;
 }
-#enlaces li{
+#enlaces main li{
     display:inline-block;
     border:1px solid black;
     padding-top:10px;
@@ -60,9 +57,7 @@ header{
     text-align:center;
     background-color: aquamarine;
 }
-li:hover{
-    transform:scale(1.15);
-}
+
 ul{
     text-align:center;
     padding-left:0;
